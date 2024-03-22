@@ -50,13 +50,15 @@ const CountDown = () => {
             if (timer !== "") {
               if (isStartTimer) {
                 setTimer("");
-                setIsStartTimer(false);
                 setDays(0);
                 setHours(0);
                 setMin(0);
                 setSec(0);
+                setIsStartTimer(false);
               } else {
-                setIsStartTimer(true);
+                if (days > 99) {
+                  setIsStartTimer(true);
+                }
                 getTime();
               }
             }
