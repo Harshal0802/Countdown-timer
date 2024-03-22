@@ -1,0 +1,72 @@
+.header_text {
+  color: white;
+  font-size: 3em;
+}
+
+.sub_text {
+  color: #3f5efb;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-top: 50px;
+}
+
+#date_time {
+  width: 50%;
+  outline: none;
+  border: 2px solid #fff;
+  background: transparent;
+  padding: 15px;
+  border-radius: 10px;
+  color: white;
+}
+
+.btn-container {
+  margin: 20px 20px 10px 20px;
+}
+
+.btn-container button {
+  background: transparent;
+  color: white;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  padding: 10px;
+  width: 150px;
+}
+
+.timer_container {
+  width: 120px;
+  height: 140px;
+  background: rgb(63, 94, 251);
+  background: linear-gradient(
+    45deg,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(252, 70, 107, 1) 100%
+  );
+  border-radius: 10px;
+}
+
+.timer_container h1,
+span {
+  color: white;
+  text-align: center;
+}
+
+.message_text {
+  color: #fc0032;
+}
+
+.message_text_100{
+    width: 500px;
+    color: #fc0032;
+}
+
+@media screen and (max-width: 2450px){
+    .header_text {
+        font-size: 5em;
+      }
+}
